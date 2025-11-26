@@ -92,12 +92,10 @@ const RadarTargetingCard = () => {
         {/* Card Content */}
         <div className="absolute bottom-0 w-full p-6 bg-gradient-to-t from-black/60 to-transparent">
           <h3 className="text-[16px] text-white">
-            Intelligent Agents to Optimize your Reach
+            Robotics & IoT Solutions
           </h3>
           <p className="text-gray-400 text-sm">
-            Scale and refine your marketing with AI-powered agents. They track
-            performance in real-time to help you reach more customers
-            efficiently.
+            Automate your operations, enhance safety, and unlock new efficiencies with intelligent robotics and smart IoT integration built for modern industry.
           </p>
         </div>
       </div>

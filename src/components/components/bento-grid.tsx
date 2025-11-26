@@ -319,12 +319,10 @@ export default function BentoGrid() {
               {/* Card Content */}
               <div className="absolute bottom-0 w-full p-6 bg-gradient-to-t from-black/60 to-transparent">
                 <h3 className="text-[16px] text-white">
-                  Reach Target Audience
+                  Website Development
                 </h3>
                 <p className="text-gray-400 text-sm">
-                  Pinpoint the perfect audience with precision. Our AI-driven
-                  targeting ensures every message resonates where it matters
-                  most.
+                  Build modern, responsive websites and applications tailored to your business needs.
                 </p>
               </div>
             </div>
@@ -375,18 +373,16 @@ export default function BentoGrid() {
 
                     {/* "Gen AI Powered" Text Positioned Above the Line */}
                     <div className="absolute -right-[95px] top-[calc(50%-14px)] -translate-y-1/2 text-[#7586B4] text-[10px] font-light">
-                      Gen AI Powered
+                       AI/ML Powered
                     </div>
                   </div>
                 </div>
                 <div className="mt-4 space-y-2">
                   <h3 className="text-[16px] text-white">
-                    Marketing made Easier
+                    AI / ML Solutions
                   </h3>
                   <p className="text-sm text-gray-400">
-                    Save time and simplify campaign management. Let automated
-                    workflows handle the heavy lifting, so you can focus on
-                    creativity.
+                    Leverage artificial intelligence and machine learning to optimize your business processes.
                   </p>
                 </div>
               </CardContent>
@@ -438,12 +434,10 @@ export default function BentoGrid() {
 
                 <div className="mt-4 space-y-2">
                   <h3 className="text-[16px] text-white">
-                    Smart Marketing Insights
+                    Data Analysis
                   </h3>
                   <p className="text-sm text-gray-400">
-                    Unlock actionable data to guide every decision. Stay ahead
-                    of trends, refine your strategies, and make confident moves
-                    with powerful analytics.
+                    Transform data into actionable insights for smarter decisions and operational efficiency.
                   </p>
                 </div>
               </CardContent>
