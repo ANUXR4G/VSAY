@@ -145,7 +145,7 @@ export default function Home() {
         </motion.div>
       </main>
 
-      <div className="min-h-screen mt-32 w-full h-full flex flex-col items-center overflow-hidden relative bg-gradient-to-b from-[#040508] to-[#0C0F15]">
+      <div className=" mt-32 w-full h-full flex flex-col items-center overflow-hidden relative bg-gradient-to-b from-[#040508] to-[#0C0F15]">
         <div className="w-[70%]  relative flex items-center justify-center bg-black bp4:h-[400px] bp3:h-[350px] h-[600px] rounded-2xl overflow-hidden">
           {/* Animated Border Effects */}
           <BorderBeam
@@ -237,7 +237,7 @@ export default function Home() {
           />
 
           <div className="flex flex-col justify-center mt-14 items-center w-full">
-            <p className="text-[16px] text-gray-200">Adtask AI works with: </p>
+            <p className="text-[16px] text-gray-200">Our Social Handles </p>
             <GlowingAdSenseCard />
           </div>
         </div>
