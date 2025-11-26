@@ -43,7 +43,7 @@ const Header = () => {
     }
   });
 
-  const x = useTransform(scrollY, [0, 0], [-100, 0]);
+  const x = useTransform(scrollY, [0, 0], [0, 0]);
 
   const handleMouseMove = (event: React.MouseEvent<HTMLButtonElement>) => {
     const rect = event.currentTarget.getBoundingClientRect();
@@ -85,7 +85,7 @@ const Header = () => {
             transition={{ duration: 0.5 }}
           >
             <Link href="/" className="text-2xl text-white whitespace-nowrap">
-              ad<span className="font-semibold">Task</span>.ai
+              <span className="font-black">VSAY</span>
             </Link>
           </motion.div>
 
