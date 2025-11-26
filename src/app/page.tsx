@@ -3,7 +3,6 @@
 
 import { motion } from "framer-motion";
 
-
 import Header from "@/components/components/header";
 import {
   ChartNetwork,
@@ -103,15 +102,15 @@ export default function Home() {
                   animate={
                     isHovered
                       ? {
-                          textShadow: "0px 0px 20px rgba(142, 146, 156, 1)", // Glow effect in #8E929C
-                          color: "#d9dbdf", // Color change on hover
+                          textShadow: "0px 0px 20px rgba(142, 146, 156, 1)",
+                          color: "#d9dbdf",
                         }
                       : {
                           textShadow: "0px 0px 0px rgba(142, 146, 156, 0)",
-                          color: "white", // Default color when not hovered
+                          color: "white",
                         }
                   }
-                  whileHover={{ y: -5 }} // Moves letter slightly up when hovered
+                  whileHover={{ y: -5 }}
                   transition={{ duration: 0.2, ease: "easeInOut" }}
                 >
                   {char}
@@ -126,22 +125,28 @@ export default function Home() {
             transition={{ delay: 0.6 }}
             className="max-w-2xl mx-auto text-[15px] text-white"
           >
-          Your trusted tech partner for AI, robotics, IoT & Software - tailored solutions driving growth, efficiency, and innovation in one place.
+            Your trusted tech partner for AI, robotics, IoT & Software - tailored solutions driving growth, efficiency, and innovation in one place.
           </motion.p>
 
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 0.8 }}
-            className="space-y-4 flex flex-col items-center justify-center"
-          >
-            <HoverBorderGradient className="bg-gradient-to-b from-[rgb(91,105,139)] to-[#828282] px-6 font-extralight py-3 text-[16]">
-              Explore Our Services
-            </HoverBorderGradient>
-            <p className="text-sm text-white/50">
-              Transform With VSAY !
-            </p>
-          </motion.div>
+            <motion.button
+              className="group relative font-light overflow-hidden border-[2px] border-[#5B698B] rounded-full bg-gradient-to-b from-black to-[rgb(65,64,64)] h-[43px] w-[191px] text-white backdrop-blur-sm transition-colors hover:bg-[rgba(0,0,0,0.30)]"
+              onMouseMove={handleMouseMove}
+              onHoverStart={() => setIsHovered1(true)}
+              onHoverEnd={() => setIsHovered1(false)}
+            >
+              <span className="relative z-10">Explore Our Services</span>
+              {isHovered1 && (
+                <motion.div
+                  className="absolute inset-0 z-0"
+                  animate={{
+                    background: [
+                      `radial-gradient(40px circle at ${mousePosition.x}px ${mousePosition.y}px, rgba(255,255,255,0.15), transparent 50%)`,
+                    ],
+                  }}
+                  transition={{ duration: 0.15 }}
+                />
+              )}
+            </motion.button>
         </motion.div>
       </main>
 
@@ -440,7 +445,7 @@ export default function Home() {
 
           <div className="grid grid-cols-3 bp1:grid-cols-2 bp6:grid-cols-1 mt-14 gap-4 mb-10">
             <Grid2
-              text="We used to struggle with consistent branding across platforms. adTask’s unified dashboard ensures our message stays on point every single time"
+              text="We used to struggle with consistent branding across platforms. adTask's unified dashboard ensures our message stays on point every single time"
               name="Brand Director at a Tech Startup"
             />
             <Grid2
@@ -648,15 +653,15 @@ export default function Home() {
                   animate={
                     isHovered
                       ? {
-                          textShadow: "0px 0px 20px rgba(142, 146, 156, 1)", // Glow effect in #8E929C
-                          color: "#d9dbdf", // Color change on hover
+                          textShadow: "0px 0px 20px rgba(142, 146, 156, 1)",
+                          color: "#d9dbdf",
                         }
                       : {
                           textShadow: "0px 0px 0px rgba(142, 146, 156, 0)",
-                          color: "white", // Default color when not hovered
+                          color: "white",
                         }
                   }
-                  whileHover={{ y: -5 }} // Moves letter slightly up when hovered
+                  whileHover={{ y: -5 }}
                   transition={{ duration: 0.2, ease: "easeInOut" }}
                 >
                   {char}
@@ -668,12 +673,12 @@ export default function Home() {
           <div className="w-[70%] flex flex-col mt-16 items-center justify-center relative z-10">
             {/* First Line */}
             <p className="text-5xl text-center bp6:text-3xl">
-              Are you ready to 
+              Are you ready to
             </p>
 
             {/* Second Line */}
             <p className="text-5xl text-center bp6:text-3xl mt-2 bg-gradient-to-b from-[#8096D2] to-[#b7b9be] bg-clip-text text-transparent leading-tight">
-             boost your Business ?
+              boost your Business ?
             </p>
           </div>
 
@@ -684,7 +689,7 @@ export default function Home() {
               onHoverStart={() => setIsHovered1(true)}
               onHoverEnd={() => setIsHovered1(false)}
             >
-              <span className="relative z-10"></span>
+              <span className="relative z-10">Explore Our Services</span>
               {isHovered1 && (
                 <motion.div
                   className="absolute inset-0 z-0"
