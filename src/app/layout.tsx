@@ -9,9 +9,9 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "adTask.ai - Transform Your Digital Presence",
+  title: "VSAY - Trusted Tech Partner",
   description:
-    "AI-powered marketing assistant that analyzes your business and creates personalized strategies",
+    "Your trusted tech partner for AI, robotics, IoT & Software",
 };
 
 export default function RootLayout({

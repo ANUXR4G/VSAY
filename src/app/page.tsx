@@ -630,11 +630,11 @@ export default function Home() {
             className="text-8xl text-center bg-clip-text text-transparent bg-gradient-to-r from-white to-white/50 drop-shadow-[0_0_15px_rgba(255,255,255,0.3)]"
           >
             <motion.span
-              className="text-[#d0d2d8] bp6:text-5xl  text-8xl font-light relative flex space-x-1"
+              className="text-[#d0d2d8] bp6:text-5xl  text-8xl font-black relative flex space-x-1"
               onHoverStart={() => setIsHovered(true)}
               onHoverEnd={() => setIsHovered(false)}
             >
-              {"adTask.ai".split("").map((char, index) => (
+              {"VSAY".split("").map((char, index) => (
                 <motion.span
                   key={index}
                   className={`inline-block ${
@@ -668,12 +668,12 @@ export default function Home() {
           <div className="w-[70%] flex flex-col mt-16 items-center justify-center relative z-10">
             {/* First Line */}
             <p className="text-5xl text-center bp6:text-3xl">
-              Are you ready to boost
+              Are you ready to 
             </p>
 
             {/* Second Line */}
             <p className="text-5xl text-center bp6:text-3xl mt-2 bg-gradient-to-b from-[#8096D2] to-[#b7b9be] bg-clip-text text-transparent leading-tight">
-              your Digital Presence ?
+             boost your Business ?
             </p>
           </div>
 
@@ -684,7 +684,7 @@ export default function Home() {
               onHoverStart={() => setIsHovered1(true)}
               onHoverEnd={() => setIsHovered1(false)}
             >
-              <span className="relative z-10">Start Free Trial</span>
+              <span className="relative z-10"></span>
               {isHovered1 && (
                 <motion.div
                   className="absolute inset-0 z-0"
@@ -724,7 +724,7 @@ export default function Home() {
               {/* Brand and Contact Info */}
               <div className="flex flex-col items-center gap-4">
                 <h2 className="text-[#C5CDE3] bp3:text-5xl text-7xl font-light">
-                  ad<span className="font-bold">Task</span>.ai
+                  <span className="font-bold">VSAY</span>
                 </h2>
                 <div className="flex flex-row gap-3 items-end">
                   <Mail className="w-4 h-4 text-[#8096D2]" />
