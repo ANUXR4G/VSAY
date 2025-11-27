@@ -93,17 +93,17 @@ const Header = () => {
             <NavigationMenuList>
               <NavigationMenuItem>
                 <NavigationMenuTrigger className="bg-transparent text-white data-[state=open]:bg-transparent hover:bg-transparent data-[state=open]:text-white hover:text-white">
-                  Products
+                  Services
                 </NavigationMenuTrigger>
                 <NavigationMenuContent>
                   <ul className="grid w-[600px] gap-3 p-6 bg-gradient-to-r from-[#090B0F] backdrop-blur-md to-[#171B24] grid-cols-2">
                     <li className="col-span-1">
-                      <span className="text-lg font-medium text-[#5B698B]">Products</span>
+                      <span className="text-lg font-medium text-[#5B698B]">Explore All Services</span>
                       <ul className="mt-4 space-y-4">
                         <li>
                           <NavigationMenuLink asChild>
                             <a href="/optimize" className="text-white hover:text-gray-300 block pb-1">
-                              Optimize
+                              Robotics
                               <div className="w-[150px] h-[1px] mt-4 bg-gradient-to-r from-[#2E3A58] to-[#455783]" />
                             </a>
                           </NavigationMenuLink>
@@ -111,7 +111,7 @@ const Header = () => {
                         <li>
                           <NavigationMenuLink asChild>
                             <a href="/content-analytics" className="text-white hover:text-gray-300 block pb-1">
-                              Content Analytics
+                              IoT
                               <div className="w-[150px] h-[1px] mt-4 bg-gradient-to-r from-[#2E3A58] to-[#455783]" />
                             </a>
                           </NavigationMenuLink>
@@ -119,7 +119,7 @@ const Header = () => {
                         <li>
                           <NavigationMenuLink asChild>
                             <a href="/keyword-research" className="text-white hover:text-gray-300 block pb-1">
-                              Keyword Research
+                              AI/ML
                               <div className="w-[150px] h-[1px] mt-4 bg-gradient-to-r from-[#2E3A58] to-[#455783]" />
                             </a>
                           </NavigationMenuLink>
@@ -127,7 +127,7 @@ const Header = () => {
                         <li>
                           <NavigationMenuLink asChild>
                             <a href="/keyword-tracking" className="text-white hover:text-gray-300 block pb-1">
-                              Keyword Tracking
+                              Web/App Development
                               <div className="w-[150px] h-[1px] mt-4 bg-gradient-to-r from-[#2E3A58] to-[#455783]" />
                             </a>
                           </NavigationMenuLink>
@@ -135,7 +135,7 @@ const Header = () => {
                         <li>
                           <NavigationMenuLink asChild>
                             <a href="/keyword-clustering" className="text-white hover:text-gray-300">
-                              Keyword Clustering
+                              Data Analysis
                             </a>
                           </NavigationMenuLink>
                         </li>
@@ -146,7 +146,7 @@ const Header = () => {
                         <li>
                           <NavigationMenuLink asChild>
                             <a href="/competitor-research" className="text-white hover:text-gray-300 block pb-1">
-                              Competitor Research
+                              Digital Marketing
                               <div className="w-[150px] h-[1px] mt-4 bg-gradient-to-r from-[#2E3A58] to-[#455783]" />
                             </a>
                           </NavigationMenuLink>
@@ -154,7 +154,7 @@ const Header = () => {
                         <li>
                           <NavigationMenuLink asChild>
                             <a href="/social-listening" className="text-white hover:text-gray-300 block pb-1">
-                              Social Listening
+                              Cyber Security
                               <div className="w-[150px] h-[1px] mt-4 bg-gradient-to-r from-[#2E3A58] to-[#455783]" />
                             </a>
                           </NavigationMenuLink>
@@ -162,7 +162,7 @@ const Header = () => {
                         <li>
                           <NavigationMenuLink asChild>
                             <a href="/autodetect" className="text-white hover:text-gray-300 block pb-1">
-                              AutoDetect
+                              Designing
                               <div className="w-[150px] h-[1px] mt-4 bg-gradient-to-r from-[#2E3A58] to-[#455783]" />
                             </a>
                           </NavigationMenuLink>
@@ -170,7 +170,15 @@ const Header = () => {
                         <li>
                           <NavigationMenuLink asChild>
                             <a href="/site-audit" className="text-white hover:text-gray-300">
-                              Site Audit
+                              Drones Technology
+                              <div className="w-[150px] h-[1px] mt-4 bg-gradient-to-r from-[#2E3A58] to-[#455783]" />
+                            </a>
+                          </NavigationMenuLink>
+                        </li>
+                        <li>
+                          <NavigationMenuLink asChild>
+                            <a href="/site-audit" className="text-white hover:text-gray-300">
+                              3D Printing & Designing
                             </a>
                           </NavigationMenuLink>
                         </li>
