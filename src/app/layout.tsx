@@ -2,6 +2,7 @@ import type React from "react";
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
+import Header from "@/components/components/header";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -23,6 +24,7 @@ export default function RootLayout({
     <html lang="en" className="dark">
       <body className={`${poppins.className} min-h-screen`}>
         {/* Scrollable Container */}
+        <Header />
         <div className="relative min-h-screen overflow-hidden bg-gradient-to-b from-black to-[#0C0F16]">
           {/* Background Grid */}
           <div className="absolute inset-0 pointer-events-none">

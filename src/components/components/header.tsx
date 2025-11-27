@@ -90,7 +90,7 @@ const Header = () => {
           </motion.div>
 
           <NavigationMenu className="bp2:hidden flex mx-auto">
-            <NavigationMenuList>
+            <NavigationMenuList className="gap-6">
               <NavigationMenuItem>
                 <NavigationMenuTrigger className="bg-transparent text-white data-[state=open]:bg-transparent hover:bg-transparent data-[state=open]:text-white hover:text-white">
                   Services
@@ -102,41 +102,41 @@ const Header = () => {
                       <ul className="mt-4 space-y-4">
                         <li>
                           <NavigationMenuLink asChild>
-                            <a href="/optimize" className="text-white hover:text-gray-300 block pb-1">
+                            <Link href="/robotics" className="text-white hover:text-gray-300 block pb-1">
                               Robotics
                               <div className="w-[150px] h-[1px] mt-4 bg-gradient-to-r from-[#2E3A58] to-[#455783]" />
-                            </a>
+                            </Link>
                           </NavigationMenuLink>
                         </li>
                         <li>
                           <NavigationMenuLink asChild>
-                            <a href="/content-analytics" className="text-white hover:text-gray-300 block pb-1">
+                            <Link href="/IoT" className="text-white hover:text-gray-300 block pb-1">
                               IoT
                               <div className="w-[150px] h-[1px] mt-4 bg-gradient-to-r from-[#2E3A58] to-[#455783]" />
-                            </a>
+                            </Link>
                           </NavigationMenuLink>
                         </li>
                         <li>
                           <NavigationMenuLink asChild>
-                            <a href="/keyword-research" className="text-white hover:text-gray-300 block pb-1">
+                            <Link href="/ai-ml" className="text-white hover:text-gray-300 block pb-1">
                               AI/ML
                               <div className="w-[150px] h-[1px] mt-4 bg-gradient-to-r from-[#2E3A58] to-[#455783]" />
-                            </a>
+                            </Link>
                           </NavigationMenuLink>
                         </li>
                         <li>
                           <NavigationMenuLink asChild>
-                            <a href="/keyword-tracking" className="text-white hover:text-gray-300 block pb-1">
+                            <Link href="/web-app-development" className="text-white hover:text-gray-300 block pb-1">
                               Web/App Development
                               <div className="w-[150px] h-[1px] mt-4 bg-gradient-to-r from-[#2E3A58] to-[#455783]" />
-                            </a>
+                            </Link>
                           </NavigationMenuLink>
                         </li>
                         <li>
                           <NavigationMenuLink asChild>
-                            <a href="/keyword-clustering" className="text-white hover:text-gray-300">
+                            <Link href="/data-analysis" className="text-white hover:text-gray-300">
                               Data Analysis
-                            </a>
+                            </Link>
                           </NavigationMenuLink>
                         </li>
                       </ul>
@@ -145,41 +145,41 @@ const Header = () => {
                       <ul className="mt-12 space-y-4">
                         <li>
                           <NavigationMenuLink asChild>
-                            <a href="/competitor-research" className="text-white hover:text-gray-300 block pb-1">
+                            <Link href="/digital-marketing" className="text-white hover:text-gray-300 block pb-1">
                               Digital Marketing
                               <div className="w-[150px] h-[1px] mt-4 bg-gradient-to-r from-[#2E3A58] to-[#455783]" />
-                            </a>
+                            </Link>
                           </NavigationMenuLink>
                         </li>
                         <li>
                           <NavigationMenuLink asChild>
-                            <a href="/social-listening" className="text-white hover:text-gray-300 block pb-1">
+                            <Link href="/cyber-security" className="text-white hover:text-gray-300 block pb-1">
                               Cyber Security
                               <div className="w-[150px] h-[1px] mt-4 bg-gradient-to-r from-[#2E3A58] to-[#455783]" />
-                            </a>
+                            </Link>
                           </NavigationMenuLink>
                         </li>
                         <li>
                           <NavigationMenuLink asChild>
-                            <a href="/autodetect" className="text-white hover:text-gray-300 block pb-1">
+                            <Link href="/designing" className="text-white hover:text-gray-300 block pb-1">
                               Designing
                               <div className="w-[150px] h-[1px] mt-4 bg-gradient-to-r from-[#2E3A58] to-[#455783]" />
-                            </a>
+                            </Link>
                           </NavigationMenuLink>
                         </li>
                         <li>
                           <NavigationMenuLink asChild>
-                            <a href="/site-audit" className="text-white hover:text-gray-300">
+                            <Link href="/drones-technology" className="text-white hover:text-gray-300">
                               Drones Technology
                               <div className="w-[150px] h-[1px] mt-4 bg-gradient-to-r from-[#2E3A58] to-[#455783]" />
-                            </a>
+                            </Link>
                           </NavigationMenuLink>
                         </li>
                         <li>
                           <NavigationMenuLink asChild>
-                            <a href="/site-audit" className="text-white hover:text-gray-300">
+                            <Link href="/3d-printing" className="text-white hover:text-gray-300">
                               3D Printing & Designing
-                            </a>
+                            </Link>
                           </NavigationMenuLink>
                         </li>
                       </ul>
@@ -189,77 +189,11 @@ const Header = () => {
               </NavigationMenuItem>
 
               <NavigationMenuItem>
-                <NavigationMenuTrigger className="bg-transparent text-white data-[state=open]:bg-transparent hover:bg-transparent data-[state=open]:text-white hover:text-white">
-                  Tools
-                </NavigationMenuTrigger>
-                <NavigationMenuContent>
-                  <ul className="grid w-[600px] gap-3 p-6 bg-gradient-to-r from-[#090B0F] backdrop-blur-md to-[#171B24] grid-cols-2">
-                    <li className="col-span-1">
-                      <span className="text-lg font-medium text-[#5B698B]">Tools</span>
-                      <ul className="mt-4 space-y-4">
-                        <li>
-                          <NavigationMenuLink asChild>
-                            <a href="/optimize" className="text-white hover:text-gray-300 block pb-1">
-                              SEO Title Generator
-                              <div className="w-[150px] h-[1px] mt-4 bg-gradient-to-r from-[#2E3A58] to-[#455783]" />
-                            </a>
-                          </NavigationMenuLink>
-                        </li>
-                        <li>
-                          <NavigationMenuLink asChild>
-                            <a href="/content-analytics" className="text-white hover:text-gray-300 block pb-1">
-                              Seo Keyword Generator
-                              <div className="w-[150px] h-[1px] mt-4 bg-gradient-to-r from-[#2E3A58] to-[#455783]" />
-                            </a>
-                          </NavigationMenuLink>
-                        </li>
-                        <li>
-                          <NavigationMenuLink asChild>
-                            <a href="/keyword-research" className="text-white hover:text-gray-300 block pb-1">
-                              Meta Description Generator
-                              <div className="w-[150px] h-[1px] mt-4 bg-gradient-to-r from-[#2E3A58] to-[#455783]" />
-                            </a>
-                          </NavigationMenuLink>
-                        </li>
-                        <li>
-                          <NavigationMenuLink asChild>
-                            <a href="/keyword-tracking" className="text-white hover:text-gray-300 block pb-1">
-                              Blog Idea generator
-                              <div className="w-[150px] h-[1px] mt-4 bg-gradient-to-r from-[#2E3A58] to-[#455783]" />
-                            </a>
-                          </NavigationMenuLink>
-                        </li>
-                        <li>
-                          <NavigationMenuLink asChild>
-                            <a href="/keyword-clustering" className="text-white hover:text-gray-300">
-                              Website ranking checker
-                            </a>
-                          </NavigationMenuLink>
-                        </li>
-                      </ul>
-                    </li>
-                    <li className="col-span-1">
-                      <ul className="mt-12 space-y-4">
-                        <li>
-                          <NavigationMenuLink asChild>
-                            <a href="/competitor-research" className="text-white hover:text-gray-300 block pb-1">
-                              Keyword rank checker
-                              <div className="w-[150px] h-[1px] mt-4 bg-gradient-to-r from-[#2E3A58] to-[#455783]" />
-                            </a>
-                          </NavigationMenuLink>
-                        </li>
-                        <li>
-                          <NavigationMenuLink asChild>
-                            <a href="/social-listening" className="text-white hover:text-gray-300 block pb-1">
-                              Backlink Chekcer
-                              <div className="w-[150px] h-[1px] mt-4 bg-gradient-to-r from-[#2E3A58] to-[#455783]" />
-                            </a>
-                          </NavigationMenuLink>
-                        </li>
-                      </ul>
-                    </li>
-                  </ul>
-                </NavigationMenuContent>
+                <Link href="/contact" legacyBehavior passHref>
+                  <NavigationMenuLink className={cn("text-sm text-white")}>
+                    About Us
+                  </NavigationMenuLink>
+                </Link>
               </NavigationMenuItem>
 
               <NavigationMenuItem>

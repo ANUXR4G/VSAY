@@ -3,7 +3,6 @@
 
 import { motion } from "framer-motion";
 
-import Header from "@/components/components/header";
 import {
   ChartNetwork,
   Globe,
@@ -42,8 +41,6 @@ export default function Home() {
 
   return (
     <div className="relative min-h-screen w-full h-full flex flex-col items-center overflow-hidden">
-      <Header />
-
       <main className="relative pt-32 pb-16   container mx-auto px-4 z-10">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
