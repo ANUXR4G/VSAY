@@ -73,7 +73,7 @@ export default function Page() {
             className="text-center mb-10 md:mb-16 mt-14"
           >
             <motion.span
-              className="text-[#d0d2d8] text-6xl md:text-8xl lg:text-9xl relative flex justify-center space-x-1 font-black"
+              className="text-[#d0d2d8] text-6xl md:text-8xl  relative flex justify-center space-x-1 font-black"
               onHoverStart={() => setIsHovered(true)}
               onHoverEnd={() => setIsHovered(false)}
             >
