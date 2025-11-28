@@ -189,7 +189,7 @@ const Header = () => {
               </NavigationMenuItem>
 
               <NavigationMenuItem>
-                <Link href="/contact" legacyBehavior passHref>
+                <Link href="/about" legacyBehavior passHref>
                   <NavigationMenuLink className={cn("text-sm text-white")}>
                     About Us
                   </NavigationMenuLink>
