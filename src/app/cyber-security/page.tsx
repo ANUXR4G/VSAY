@@ -62,6 +62,9 @@ export default function Page() {
     }
   ];
 
+    const [isHovered, setIsHovered] = useState(false);
+
+
   return (
     <>
       <div className="w-full flex flex-col justify-center items-center px-4 md:px-8 pt-20 pb-10 min-h-screen">

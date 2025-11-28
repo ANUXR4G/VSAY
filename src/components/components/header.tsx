@@ -24,6 +24,8 @@ const Header = () => {
   const { scrollY } = useScroll();
   const [lastScrollY, setLastScrollY] = useState(0);
 
+  const whatsappUrl = "https://wa.me/919999973601?text=Hello%20team%20vsay%2C%20I%20would%20like%20to%20discuss%20about%20a%20meeting%20so%20can%20we%20schedule%20a%20call%20meeting%20?";
+
   useMotionValueEvent(scrollY, "change", (latest) => {
     // Show/hide based on scroll direction
     if (latest > lastScrollY && latest > 150) {
@@ -214,44 +216,56 @@ const Header = () => {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="bp3:hidden flex items-center gap-4"
           >
-            <motion.button
-              className="group relative bp1:hidden flex border-[2px] border-[#5B698B] overflow-hidden rounded-full bg-gradient-to-b from-[rgb(91,105,139)] to-[#414040] px-8 py-2 text-white backdrop-blur-sm transition-colors hover:bg-[rgba(255,255,255,0.2)] whitespace-nowrap"
-              onMouseMove={handleMouseMove}
-              onHoverStart={() => setIsHovered2(true)}
-              onHoverEnd={() => setIsHovered2(false)}
+            <a 
+              href={whatsappUrl}
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              <span className="relative z-10">Schedule a Call</span>
-              {isHovered2 && (
-                <motion.div
-                  className="absolute inset-0 z-0"
-                  animate={{
-                    background: [
-                      `radial-gradient(40px circle at ${mousePosition.x}px ${mousePosition.y}px, rgba(255,255,255,0.2), transparent 50%)`,
-                    ],
-                  }}
-                  transition={{ duration: 0.15 }}
-                />
-              )}
-            </motion.button>
-            <motion.button
-              className="group relative bp1:flex hidden border-[2px] border-[#5B698B] overflow-hidden rounded-full bg-gradient-to-b from-[rgb(91,105,139)] to-[#414040] px-8 py-2 text-white backdrop-blur-sm transition-colors hover:bg-[rgba(255,255,255,0.2)]"
-              onMouseMove={handleMouseMove}
-              onHoverStart={() => setIsHovered2(true)}
-              onHoverEnd={() => setIsHovered2(false)}
+              <motion.button
+                className="group relative bp1:hidden flex border-[2px] border-[#5B698B] overflow-hidden rounded-full bg-gradient-to-b from-[rgb(91,105,139)] to-[#414040] px-8 py-2 text-white backdrop-blur-sm transition-colors hover:bg-[rgba(255,255,255,0.2)] whitespace-nowrap"
+                onMouseMove={handleMouseMove}
+                onHoverStart={() => setIsHovered2(true)}
+                onHoverEnd={() => setIsHovered2(false)}
+              >
+                <span className="relative z-10">Schedule a Call</span>
+                {isHovered2 && (
+                  <motion.div
+                    className="absolute inset-0 z-0"
+                    animate={{
+                      background: [
+                        `radial-gradient(40px circle at ${mousePosition.x}px ${mousePosition.y}px, rgba(255,255,255,0.2), transparent 50%)`,
+                      ],
+                    }}
+                    transition={{ duration: 0.15 }}
+                  />
+                )}
+              </motion.button>
+            </a>
+            <a 
+              href={whatsappUrl}
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              <Phone className="relative z-10 w-6 h-6" />
-              {isHovered2 && (
-                <motion.div
-                  className="absolute inset-0 z-0"
-                  animate={{
-                    background: [
-                      `radial-gradient(40px circle at ${mousePosition.x}px ${mousePosition.y}px, rgba(255,255,255,0.2), transparent 50%)`,
-                    ],
-                  }}
-                  transition={{ duration: 0.15 }}
-                />
-              )}
-            </motion.button>
+              <motion.button
+                className="group relative bp1:flex hidden border-[2px] border-[#5B698B] overflow-hidden rounded-full bg-gradient-to-b from-[rgb(91,105,139)] to-[#414040] px-8 py-2 text-white backdrop-blur-sm transition-colors hover:bg-[rgba(255,255,255,0.2)]"
+                onMouseMove={handleMouseMove}
+                onHoverStart={() => setIsHovered2(true)}
+                onHoverEnd={() => setIsHovered2(false)}
+              >
+                <Phone className="relative z-10 w-6 h-6" />
+                {isHovered2 && (
+                  <motion.div
+                    className="absolute inset-0 z-0"
+                    animate={{
+                      background: [
+                        `radial-gradient(40px circle at ${mousePosition.x}px ${mousePosition.y}px, rgba(255,255,255,0.2), transparent 50%)`,
+                      ],
+                    }}
+                    transition={{ duration: 0.15 }}
+                  />
+                )}
+              </motion.button>
+            </a>
           </motion.div>
         </div>
       </motion.div>
