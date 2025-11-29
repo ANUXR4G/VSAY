@@ -203,9 +203,10 @@ export default function Page() {
               </h3>
               <nav className="flex flex-col text-gray-400 gap-1 items-center">
                 <a href="/" className="hover:text-[#8096D2] transition-colors">Home</a>
-                <a href="/product" className="hover:text-[#8096D2] transition-colors">Product</a>
-                <a href="/tools" className="hover:text-[#8096D2] transition-colors">Tools</a>
-                <a href="/contact" className="hover:text-[#8096D2] transition-colors">Contact Us</a>
+                 <a href="/about" className="hover:text-[#8096D2] transition-colors">About Us</a>
+
+<a href="/products" className="hover:text-[#8096D2] transition-colors">Products</a>
+               
               </nav>
             </div>
 
