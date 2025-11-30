@@ -44,15 +44,15 @@ export default function Home() {
     <div className="relative min-h-screen w-full h-full flex flex-col items-center overflow-hidden">
       <main className="relative pt-32 pb-16   container mx-auto px-4 z-10">
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
+          initial={{ opacity: 1, y: 0 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
+          transition={{ duration: 0 }}
           className="text-center space-y-6 flex flex-col gap-8 items-center justify-center"
         >
           <motion.div
-            initial={{ opacity: 0, scale: 0.9 }}
+            initial={{ opacity: 1, scale: 1 }}
             animate={{ opacity: 1, scale: 1 }}
-            transition={{ delay: 0.2 }}
+            transition={{ duration: 0 }}
             className="inline-block"
           >
             <span className="relative px-4 py-2 rounded-xl flex flex-row gap-2 items-center bg-white/10 text-sm text-white/90 backdrop-blur-sm border border-white/10 overflow-hidden">
@@ -70,15 +70,15 @@ export default function Home() {
 
               <WandSparkles className="w-4 h-4 relative z-10" />
               <p className="relative z-10">
-                TRANSFORM YOUR DIGITAL PRESENCE WITH AI AGENTS
+                COMPLETE IT SOLUTIONS FOR YOUR BUSNIESS
               </p>
             </span>
           </motion.div>
 
           <motion.h1
-            initial={{ opacity: 0 }}
+            initial={{ opacity: 1 }}
             animate={{ opacity: 1 }}
-            transition={{ delay: 0.4 }}
+            transition={{ duration: 0 }}
             className="text-8xl text-center bg-clip-text text-transparent bg-gradient-to-r from-white to-white/50 drop-shadow-[0_0_15px_rgba(255,255,255,0.3)]"
           >
             <motion.span
@@ -118,9 +118,9 @@ export default function Home() {
           </motion.h1>
 
           <motion.p
-            initial={{ opacity: 0 }}
+            initial={{ opacity: 1 }}
             animate={{ opacity: 1 }}
-            transition={{ delay: 0.6 }}
+            transition={{ duration: 0 }}
             className="max-w-2xl mx-auto text-[15px] text-white"
           >
             Your trusted tech partner for AI, robotics, IoT & Software - tailored solutions driving growth, efficiency, and innovation in one place.
@@ -629,7 +629,7 @@ export default function Home() {
           <motion.h1
             initial={{ opacity: 0.3 }}
             animate={{ opacity: 0.3 }}
-            transition={{ delay: 0.4 }}
+            transition={{ duration: 0 }}
             className="text-8xl text-center bg-clip-text text-transparent bg-gradient-to-r from-white to-white/50 drop-shadow-[0_0_15px_rgba(255,255,255,0.3)]"
           >
             <motion.span
