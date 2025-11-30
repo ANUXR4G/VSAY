@@ -161,7 +161,7 @@ export default function Page() {
         >
           We specialize in developing cutting-edge robotics solutions that can be used in various industries, such as manufacturing, logistics, and transportation. Our robots are designed with safety, reliability, and ease of use in mind.
 
-          At our robotics service center, we offer a comprehensive range of solutions to meet all your needs. Our services include high-quality training programs, hands-on workshops, and expert-led sessions that cater to beginners and advanced learners alike. Whether you're looking to learn, design a new product, or refine your robotics skills, we provide dedicated trainers and resources to guide you through every step. We specialize in innovative product design and practical project development, ensuring our clients stay ahead in the evolving world of robotics. With our workshops and professional support, your ideas can seamlessly transform into groundbreaking robotic applications.
+          At our robotics service center, we offer a comprehensive range of solutions to meet all your needs. Our services include high-quality training programs, hands-on workshops, and expert-led sessions that cater to beginners and advanced learners alike. Whether you&apos;re looking to learn, design a new product, or refine your robotics skills, we provide dedicated trainers and resources to guide you through every step. We specialize in innovative product design and practical project development, ensuring our clients stay ahead in the evolving world of robotics. With our workshops and professional support, your ideas can seamlessly transform into groundbreaking robotic applications.
         </ScrollReveal>
       </div>
 

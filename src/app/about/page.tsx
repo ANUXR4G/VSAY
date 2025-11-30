@@ -70,7 +70,7 @@ const AboutPage = () => {
           world.
         </p>
         <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base">
-          At VSAY, we're dedicated to creating impactful, long-term
+          At VSAY, we&apos;re dedicated to creating impactful, long-term
           partnerships by delivering excellence in every project, fostering a
           future where every organization can thrive with the power of
           cutting-edge technology.
