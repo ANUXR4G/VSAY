@@ -857,7 +857,7 @@ export default function Home() {
           </div>
 
           <div className="w-full flex justify-center text-gray-400 text-sm font-light mb-3 items-center">
-            <p>All right reserved &copy; 2025 addTask</p>
+            <p>All right reserved &copy; 2025 VSAY</p>
           </div>
         </div>
       </div>
