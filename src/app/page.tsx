@@ -219,7 +219,7 @@ export default function Home() {
               }
               style={{ willChange: isMobile ? "auto" : "transform" }}
             >
-              ad<span className="font-semibold">Task</span>.ai
+              V<span className="font-semibold">SA</span>Y
             </motion.span>
 
             {/* YouTube Icon (Centered & On Top) */}
