@@ -216,7 +216,7 @@ const Header = () => {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="bp3:hidden flex items-center gap-4"
           >
-            <a 
+            <Link 
               href={whatsappUrl}
               target="_blank"
               rel="noopener noreferrer"
@@ -240,8 +240,8 @@ const Header = () => {
                   />
                 )}
               </motion.button>
-            </a>
-            <a 
+            </Link>
+            <Link 
               href={whatsappUrl}
               target="_blank"
               rel="noopener noreferrer"
@@ -265,7 +265,7 @@ const Header = () => {
                   />
                 )}
               </motion.button>
-            </a>
+            </Link>
           </motion.div>
         </div>
       </motion.div>

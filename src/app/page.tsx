@@ -23,6 +23,7 @@ import GlowingAdSenseCard from "@/components/components/Social";
 import BentoGrid from "@/components/components/bento-grid";
 import Grid from "@/components/components/grid";
 import Grid2 from "@/components/components/grid2";
+import Link from "next/link"
 
 export default function Home() {
   const [isHovered, setIsHovered] = useState<boolean>(false);
@@ -442,7 +443,7 @@ export default function Home() {
 
           <div className="grid grid-cols-3 bp1:grid-cols-2 bp6:grid-cols-1 mt-14 gap-4 mb-10">
             <Grid2
-              text="We used to struggle with consistent branding across platforms. adTask's unified dashboard ensures our message stays on point every single time"
+              text="We used to struggle with consistent branding across platforms. VSAY's unified dashboard ensures our message stays on point every single time"
               name="Brand Director at a Tech Startup"
             />
             <Grid2
@@ -450,19 +451,19 @@ export default function Home() {
               name="Digital Strategist at a SaaS Company"
             />
             <Grid2
-              text="adTask turned our complicated campaigns into a breeze. The built-in AI agents helped us reach exactly the customers we wanted—without guesswork!"
+              text="VSAY turned our complicated campaigns into a breeze. The built-in AI agents helped us reach exactly the customers we wanted—without guesswork!"
               name="Head of Growth at a Tech Startup"
             />
             <Grid2
-              text="adTask made everything from campaign setup to performance tracking simple. Our team can now focus on creating great content rather than crunching numbers."
+              text="VSAY made everything from campaign setup to performance tracking simple. Our team can now focus on creating great content rather than crunching numbers."
               name="Social Media Lead at a Non-Profit Organization"
             />
             <Grid2
-              text="We've tried other platforms before, but none delivered the depth of insights adTask offers. Our conversion rates are up by 35% since we signed on!"
+              text="We've tried other platforms before, but none delivered the depth of insights VSAY offers. Our conversion rates are up by 35% since we signed on!"
               name="Ecommerce Manager at a Home Décor Brand"
             />
             <Grid2
-              text="We've seen a 50% boost in engagement across our social channels since switching to adTask. Its AI-driven insights are game-changing!"
+              text="We've seen a 50% boost in engagement across our social channels since switching to VSAY. Its AI-driven insights are game-changing!"
               name=" Social Media Manager at a Fitness Brand"
             />
           </div>
@@ -510,7 +511,7 @@ export default function Home() {
 
               <div className="mt-8 flex flex-row gap-3 items-end">
                 <Mail className="w-6 h-6 text-[#8096D2]" />
-                <p className="font-light  text-sm">contact@adtask.ai</p>
+                <p className="font-light  text-sm">contact@VSAY.ai</p>
               </div>
               <div className="mt-8 flex flex-row gap-3 items-end">
                 <Phone className="w-6 h-6 text-[#8096D2]" />
@@ -730,12 +731,12 @@ export default function Home() {
                 </h2>
                 <div className="flex flex-row gap-3 items-end">
                   <Mail className="w-4 h-4 text-[#8096D2]" />
-                  <a
-                    href="mailto:contact@adtask.ai"
+                  <Link
+                    href="mailto:contact@VSAY.ai"
                     className="font-light text-[#C5CDE3] hover:text-[#8096D2] transition-colors underline text-sm"
                   >
-                    contact@adtask.ai
-                  </a>
+                    contact@VSAY.ai
+                  </Link>
                 </div>
                 <div className="flex flex-row gap-3 items-end">
                   <MapPin className="w-4 h-4 text-[#8096D2]" />
@@ -753,30 +754,30 @@ export default function Home() {
                     Utilities
                   </h3>
                   <nav className="flex flex-col text-gray-400 gap-1 items-center">
-                    <a
+                    <Link
                       href="/"
                       className="hover:text-[#8096D2] transition-colors"
                     >
                       Home
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="/product"
                       className="hover:text-[#8096D2] transition-colors"
                     >
                       Product
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="/tools"
                       className="hover:text-[#8096D2] transition-colors"
                     >
                       Tools
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="/contact"
                       className="hover:text-[#8096D2] transition-colors"
                     >
                       Contact Us
-                    </a>
+                    </Link>
                   </nav>
                 </div>
 
@@ -786,30 +787,30 @@ export default function Home() {
                     Socials
                   </h3>
                   <nav className="flex flex-col text-gray-400 gap-1 items-center">
-                    <a
+                    <Link
                       href="#"
                       className="hover:text-[#8096D2] transition-colors"
                     >
                       X
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="#"
                       className="hover:text-[#8096D2] transition-colors"
                     >
                       LinkedIn
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="#"
                       className="hover:text-[#8096D2] transition-colors"
                     >
                       Instagram
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="#"
                       className="hover:text-[#8096D2] transition-colors"
                     >
                       Facebook
-                    </a>
+                    </Link>
                   </nav>
                 </div>
               </div>

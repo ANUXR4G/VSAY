@@ -14,6 +14,8 @@ import { motion } from "framer-motion";
 import ScrollReveal from '@/components/ui/ScrollReveal';
 import { Mail, MapPin } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
+
 
 export default function Page() {
   const plugin = useRef(
@@ -179,12 +181,12 @@ export default function Page() {
             </h2>
             <div className="flex flex-row gap-3 items-end">
               <Mail className="w-4 h-4 text-[#8096D2]" />
-              <a
-                href="mailto:contact@adtask.ai"
+              <Link
+                href="mailto:contact@VSAY.ai"
                 className="font-light text-[#C5CDE3] hover:text-[#8096D2] transition-colors underline text-sm"
               >
-                contact@adtask.ai
-              </a>
+                contact@VSAY.ai
+              </Link>
             </div>
             <div className="flex flex-row gap-3 items-end">
               <MapPin className="w-4 h-4 text-[#8096D2]" />
@@ -202,10 +204,10 @@ export default function Page() {
                 Utilities
               </h3>
               <nav className="flex flex-col text-gray-400 gap-1 items-center">
-                <a href="/" className="hover:text-[#8096D2] transition-colors">Home</a>
-                 <a href="/about" className="hover:text-[#8096D2] transition-colors">About Us</a>
+                <Link href="/" className="hover:text-[#8096D2] transition-colors">Home</Link>
+                 <Link href="/about" className="hover:text-[#8096D2] transition-colors">About Us</Link>
 
-<a href="/products" className="hover:text-[#8096D2] transition-colors">Products</a>
+<Link href="/products" className="hover:text-[#8096D2] transition-colors">Products</Link>
                
               </nav>
             </div>
@@ -214,10 +216,10 @@ export default function Page() {
             <div>
               <h3 className="text-[#C5CDE3] text-2xl font-bold mb-4">Socials</h3>
               <nav className="flex flex-col text-gray-400 gap-1 items-center">
-                <a href="#" className="hover:text-[#8096D2] transition-colors">X</a>
-                <a href="#" className="hover:text-[#8096D2] transition-colors">LinkedIn</a>
-                <a href="#" className="hover:text-[#8096D2] transition-colors">Instagram</a>
-                <a href="#" className="hover:text-[#8096D2] transition-colors">Facebook</a>
+                <Link href="#" className="hover:text-[#8096D2] transition-colors">X</Link>
+                <Link href="#" className="hover:text-[#8096D2] transition-colors">LinkedIn</Link>
+                <Link href="#" className="hover:text-[#8096D2] transition-colors">Instagram</Link>
+                <Link href="#" className="hover:text-[#8096D2] transition-colors">Facebook</Link>
               </nav>
             </div>
           </div>
