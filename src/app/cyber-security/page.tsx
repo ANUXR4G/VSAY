@@ -20,7 +20,6 @@ export default function Page() {
     Autoplay({ delay: 3000, stopOnInteraction: true })
   );
 
-  const [isHovered, setIsHovered] = useState(false);
   const [isMounted, setIsMounted] = useState(false);
 
   // Fix hydration error by only rendering images on client
