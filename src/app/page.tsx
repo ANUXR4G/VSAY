@@ -146,6 +146,8 @@ export default function Home() {
               one place.
             </motion.p>
 
+
+          <Link href="/about">
             <motion.button
               className="group relative font-light overflow-hidden border-[2px] border-[#5B698B] rounded-full bg-gradient-to-b from-black to-[rgb(65,64,64)] h-[43px] w-[191px] text-white backdrop-blur-sm transition-colors hover:bg-[rgba(0,0,0,0.30)]"
               onMouseMove={handleMouseMove}
@@ -153,7 +155,7 @@ export default function Home() {
               onHoverEnd={() => !isMobile && setIsHovered1(false)}
               style={{ willChange: isMobile ? "auto" : "background" }}
             >
-              <span className="relative z-10">Explore Our Services</span>
+              <span className="relative z-10">Explore About Us</span>
               {!isMobile && isHovered1 && (
                 <motion.div
                   className="absolute inset-0 z-0"
@@ -166,6 +168,7 @@ export default function Home() {
                 />
               )}
             </motion.button>
+            </Link>
           </motion.div>
         </main>
 
